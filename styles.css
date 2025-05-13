@@ -1,0 +1,38 @@
+*{
+    font-family: "Amatic SC", sans-serif;
+    box-sizing: border-box;
+     margin: 0;
+    padding: 0;
+  }
+ 
+
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.641);
+
+  } 
+  
+ .navbar ul{
+   display: flex;
+} 
+
+.navbar li{
+    list-style: none;
+    font-size: 24px;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+  } 
+
+  .navbar:hover  {
+    background-color: black;
+  }  
+
+  .navbar li:hover {
+    background-color: rgb(198, 198, 198);
+    color: rgb(0,0,0);
+  }  
+
+
+
+
+  /*    {}     */
