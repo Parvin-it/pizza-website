@@ -7,8 +7,12 @@
  
 
   .navbar {
-    background-color: rgba(0, 0, 0, 0.641);
-
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
   } 
   
  .navbar ul{
@@ -27,12 +31,61 @@
     background-color: black;
   }  
 
+  @media only screen and (max-width: 600px) {
+   .navbar{
+   display: none;
+  }  
+  }
+
   .navbar li:hover {
     background-color: rgb(198, 198, 198);
     color: rgb(0,0,0);
   }  
 
+.main-wrapper  {
+  background-image: url(images/pizza.jpg);
+  height: 600px;
+  filter: grayscale(50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+} 
 
+.main-heading  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 100px;
+  color: rgb(255,255,255);
+  font-weight: 400;
+  text-shadow: 0 0 9px rgba(0, 0, 0, 0.658);
+} 
 
+.menu-link {
+  background-color: #000000;
+  
+  padding: 10px 20px;
+  font-size: 40px;
+}  
+
+.menu-link a:link , 
+.menu-link a:hover,  
+.menu-link a:visited,  
+.menu-link a:active  {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.opening-hours {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  background-color: #000000;
+  padding: 5px 7px;
+  color: #ffffff;
+  font-size: 25px;
+}  
 
   /*    {}     */
