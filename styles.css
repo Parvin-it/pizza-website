@@ -159,24 +159,24 @@ body{
 .price  {
   position: absolute;
   right: 0;
-  top: 25px;
+  top: 32px;
   background-color: rgb(85, 85, 85);
   color: #ffffff;
-  padding: 0 5px;
+  padding: 0px 5px;
   border-radius: 5px;
 }  
 
 .hot-span  {
   background-color: rgb(251, 44, 44);
   color: #ffffff;
-  padding: 5px 5px;
+  padding: 8px 5px;
   border-radius: 4px;
   font-weight: normal;
 }   
 
 .new-span  {
   background-color: rgb(162, 162, 162);
-  padding: 5px 5px;
+  padding: 8px 5px;
   border-radius: 4px;
   font-weight: normal;
 }   
