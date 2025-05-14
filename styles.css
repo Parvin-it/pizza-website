@@ -191,9 +191,9 @@ body{
  .menu{
   width: fit-content;
  } 
- .image-bg  {
-  height: 700px;
-} 
+ .opening-hours-stamp {
+  bottom: 40px;
+}  
 
  }
 
