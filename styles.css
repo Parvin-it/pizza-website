@@ -63,7 +63,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-justify-content: center;
+  justify-content: center;
 
  } 
 
@@ -191,6 +191,9 @@ justify-content: center;
  .menu{
   width: fit-content;
  } 
+ .image-bg  {
+  height: 700px;
+} 
  }
 
  @media only screen and (min-width: 900px) {
