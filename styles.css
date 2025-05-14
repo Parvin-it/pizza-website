@@ -1,10 +1,12 @@
 *{
-    font-family: "Amatic SC", sans-serif;
-    box-sizing: border-box;
-     margin: 0;
-    padding: 0;
-  }
- 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Amatic SC", sans-serif;
+}
 
   .navbar {
     background-color: rgba(0, 0, 0, 0.6);
@@ -14,6 +16,10 @@
     right: 0;
     z-index: 100;
   } 
+
+  .navbar:hover{
+    background-color: #000000;
+ } 
   
  .navbar ul{
    display: flex;
@@ -22,70 +28,176 @@
 .navbar li{
     list-style: none;
     font-size: 24px;
-    color: white;
     padding: 10px 15px;
     cursor: pointer;
   } 
 
-  .navbar:hover  {
-    background-color: black;
+  .navbar a:link,
+  .navbar a:visited {
+    color: #ffffff;
+    text-decoration: none;
+  } 
+
+  .navbar a:hover,  
+  .navbar a:active  {
+    text-decoration: none;  
+    color: #000000;
   }  
 
-  @media only screen and (max-width: 600px) {
-   .navbar{
-   display: none;
-  }  
-  }
+  
 
   .navbar li:hover {
     background-color: rgb(198, 198, 198);
     color: rgb(0,0,0);
   }  
 
-.main-wrapper  {
-  background-image: url(images/pizza.jpg);
-  height: 600px;
-  filter: grayscale(50%);
+  .image-bg  {
+    background-image: url(images/pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    filter: grayscale(50%);
+  } 
+
+ .main-wrapper  {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  position: relative;
-} 
+justify-content: center;
+
+ } 
 
 .main-heading  {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-top: 150px;
   font-size: 100px;
   color: rgb(255,255,255);
   font-weight: 400;
-  text-shadow: 0 0 9px rgba(0, 0, 0, 0.658);
+  text-shadow: 0 0 9px rgba(0, 0, 0, 0.7);
+  text-align: center;
 } 
 
-.menu-link {
+.main-heading-2  {
+ display: block;
+ margin-bottom: 30px;
+} 
+
+.menu-link a {
   background-color: #000000;
-  
   padding: 10px 20px;
   font-size: 40px;
+  cursor: pointer;
+  text-decoration: none;
 }  
 
 .menu-link a:link , 
-.menu-link a:hover,  
-.menu-link a:visited,  
-.menu-link a:active  {
-  text-decoration: none;
+.menu-link a:visited {
   color: #ffffff;
 }
 
-.opening-hours {
+.menu-link a:hover, 
+ .menu-link a:active  {
+  color: #000000;
+  background-color: rgb(198, 198, 198);
+} 
+
+.opening-hours-stamp {
   position: absolute;
   bottom: 15px;
   left: 20px;
   background-color: #000000;
-  padding: 5px 7px;
+  padding: 0px 7px;
   color: #ffffff;
-  font-size: 25px;
+  font-size: 24px;
 }  
 
+.opening-hours-stamp::first-letter {
+  font-size: 30px;
+}   
+
+
+/* -------- MENU STYLES START HERE ------- */
+
+.black-bg{
+  background-color: #000000;
+  padding: 0  20px 100px 20px;
+} 
+
+.menu-title{
+  color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+  padding: 40px 0;
+}
+
+.menu{
+  background-color: #ffffff;
+  border: 1px solid rgb(133, 133, 133);
+  margin: 0 auto;
+  padding: 15px;
+} 
+
+.dish, 
+.dish-last {
+  font-size: 30px;
+  line-height: 2;
+  position: relative;
+  border-bottom: 1px solid rgb(214, 214, 214) ;
+  letter-spacing: 1px;
+  padding: 20px 0;
+} 
+
+.dish-last{
+  border-bottom: none;
+} 
+
+
+.toppings  {
+ color: rgb(137, 137, 137);
+
+} 
+
+.price  {
+  position: absolute;
+  right: 0;
+  top: 25px;
+  background-color: rgb(85, 85, 85);
+  color: #ffffff;
+  padding: 0 5px;
+  border-radius: 5px;
+}  
+
+.hot-span  {
+  background-color: rgb(251, 44, 44);
+  color: #ffffff;
+  padding: 5px 5px;
+  border-radius: 4px;
+  font-weight: normal;
+}   
+
+.new-span  {
+  background-color: rgb(162, 162, 162);
+  padding: 5px 5px;
+  border-radius: 4px;
+  font-weight: normal;
+}   
+
+
   /*    {}     */
+
+@media only screen and (max-width: 600px) {
+  .navbar{
+  display: none;
+ }  
+ .menu{
+  width: fit-content;
+ } 
+ }
+
+ @media only screen and (min-width: 900px) {
+  .menu{
+   width: 900px;
+  } 
+  }
+
+
+
