@@ -144,7 +144,7 @@ body{
   position: relative;
   border-bottom: 1px solid rgb(214, 214, 214) ;
   letter-spacing: 1px;
-  padding: 20px 0;
+  padding: 30px 0;
 } 
 
 .dish-last{
@@ -154,7 +154,6 @@ body{
 
 .toppings  {
  color: rgb(137, 137, 137);
-
 } 
 
 .price  {
