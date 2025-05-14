@@ -57,6 +57,7 @@ body{
     background-repeat: no-repeat;
     height: 600px;
     filter: grayscale(50%);
+    position: relative;
   } 
 
  .main-wrapper  {
@@ -191,9 +192,6 @@ body{
  .menu{
   width: fit-content;
  } 
- .opening-hours-stamp {
-  bottom: 0px;
-}  
 
  }
 
