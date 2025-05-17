@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -194,6 +198,8 @@ body{
   margin: 0 auto;
   padding: 0 20px;
   width: fit-content;
+  margin-bottom: 1000px;
+  line-height: 2;
 }
 
 .about-info {
@@ -202,7 +208,7 @@ body{
 }
 
 .about-info h3{
-  font-size: 50px !important;
+  font-size: 50px ;
   text-align: center;
   font-size: 50px;
   padding: 40px 0;
@@ -210,18 +216,16 @@ body{
 
 .about-chef-row {
   font-size: 25px;
-  line-height: 2;
   margin: 30px 0;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 } 
 
 
 .chef-img {
   width: 150px;
   border-radius: 50%;
-  position: absolute;
-  right: 0;
-  top: 10px;
 } 
 
 .restaurant-img{
@@ -236,9 +240,12 @@ body{
  .opening-hours-flex {
   font-size: 25px;
   display: flex;
-  line-height: 2;
-  justify-content: space-between;
- }
+
+}
+
+.opening-hours-flex div{
+  width: 100%;
+}
 
 
 
@@ -255,10 +262,10 @@ body{
   width: fit-content;
  } 
  .opening-hours-flex {
-  width: 500px;
+  width: 100%;
  }
  .chef-img {
-   width: 120px;
+   width: 100px;
    } 
 
  }
@@ -273,7 +280,7 @@ body{
    .restaurant-img{
     width: 100%;
    } 
-  
+   
   }
 
 
