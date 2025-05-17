@@ -283,6 +283,8 @@ body{
 
 .h3-subheading  {
   margin: 20px 0 ;
+  color: #ffffff;
+  text-decoration: none;
 } 
 
 .reserve-tbl-h4 {
@@ -299,11 +301,13 @@ body{
   margin-bottom: 20px;
   font-size: 25px;
   border: none;
+  color: #000000;
 } 
 
 .send-btn {
   padding: 8px;
   cursor: pointer;
+  background-color: #ffffff;
 }  
 
 .send-btn:hover {
