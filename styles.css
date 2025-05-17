@@ -10,6 +10,7 @@ html {
 
 body{
   font-family: "Amatic SC", sans-serif;
+  text-transform: uppercase;
 }
 
   .navbar {
@@ -145,7 +146,6 @@ body{
 .dish-last {
   font-size: 30px;
   line-height: 2;
-  position: relative;
   border-bottom: 1px solid rgb(214, 214, 214) ;
   letter-spacing: 1px;
   padding: 30px 0;
@@ -154,16 +154,13 @@ body{
 .dish-last{
   border-bottom: none;
 } 
-
-
-.toppings  {
- color: rgb(137, 137, 137);
+.dish-name-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 } 
 
 .price  {
-  position: absolute;
-  right: 0;
-  top: 33px;
   background-color: rgb(85, 85, 85);
   color: #ffffff;
   padding: 0px 5px;
@@ -171,19 +168,23 @@ body{
 }  
 
 .hot-span  {
-  background-color: rgb(251, 44, 44);
+  background-color: rgb(250, 75, 75);
   color: #ffffff;
-  padding: 8px 5px;
+  padding: 5px;
   border-radius: 4px;
   font-weight: normal;
 }   
 
 .new-span  {
   background-color: rgb(162, 162, 162);
-  padding: 8px 5px;
+  padding: 5px;
   border-radius: 4px;
   font-weight: normal;
 }   
+
+.toppings  {
+ color: rgb(137, 137, 137);
+} 
 
 /* -------- ABOUT STYLES START HERE ------- */
 
@@ -198,12 +199,11 @@ body{
   margin: 0 auto;
   padding: 0 20px;
   width: fit-content;
-  margin-bottom: 1000px;
   line-height: 2;
 }
 
 .about-info {
-  text-transform: uppercase;
+
   font-size: 25px;
 }
 
