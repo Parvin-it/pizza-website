@@ -272,8 +272,8 @@ body{
 }  
 
 .tel {
-  color: #ffffff;
-  text-decoration: none;
+  color: #ffffff !important;
+  text-decoration: none !important;
 } 
 
 .contact h3{
