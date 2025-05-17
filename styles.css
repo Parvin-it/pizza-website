@@ -193,12 +193,11 @@ body{
 .about{
   margin: 0 auto;
   padding: 0 20px;
-  width: 900px;
+  width: fit-content;
 }
 
 .about-info {
   text-transform: uppercase;
-  margin: 0 auto;
   font-size: 25px;
 }
 
@@ -209,23 +208,37 @@ body{
   padding: 40px 0;
 }
 
-.about-chef-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.about-chef-row {
   font-size: 25px;
   line-height: 2;
-  margin: 20px 0;
+  margin: 30px 0;
+  position: relative;
 } 
+
 
 .chef-img {
   width: 150px;
   border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 10px;
 } 
 
 .restaurant-img{
-  width: 850px;
+  width: 100%;
  } 
+
+ .opening-hours-title{
+  font-size: 30px;
+  margin: 15px auto;
+ } 
+
+ .opening-hours-flex {
+  font-size: 25px;
+  display: flex;
+  line-height: 2;
+  justify-content: space-between;
+ }
 
 
 
@@ -241,7 +254,12 @@ body{
  .about{
   width: fit-content;
  } 
- 
+ .opening-hours-flex {
+  width: 500px;
+ }
+ .chef-img {
+   width: 120px;
+   } 
 
  }
 
@@ -252,6 +270,10 @@ body{
   .about{
     width: 900px;
    } 
+   .restaurant-img{
+    width: 100%;
+   } 
+  
   }
 
 
