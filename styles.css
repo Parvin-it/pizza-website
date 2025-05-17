@@ -271,6 +271,11 @@ body{
   
 }  
 
+.tel {
+  color: #ffffff;
+  text-decoration: none;
+} 
+
 .contact h3{
   text-align: center;
   font-size: 60px;
@@ -283,8 +288,7 @@ body{
 
 .h3-subheading  {
   margin: 20px 0 ;
-  color: #ffffff;
-  text-decoration: none;
+ 
 } 
 
 .reserve-tbl-h4 {
