@@ -307,6 +307,17 @@ body{
   color: #000000;
 } 
 
+input[type="datetime-local"] {
+  font-family: "Amatic SC", sans-serif;
+  display: block;
+  padding: 20px 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 25px;
+  border: none;
+  color: #000000;
+}
+
 .send-btn {
   padding: 8px;
   cursor: pointer;
