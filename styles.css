@@ -6,11 +6,13 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-weight: normal;
 }
 
 body{
   font-family: "Amatic SC", sans-serif;
   text-transform: uppercase;
+
 }
 
   .navbar {
@@ -32,7 +34,7 @@ body{
 
 .navbar li{
     list-style: none;
-    font-size: 24px;
+    font-size: 1.6rem;
     padding: 10px 15px;
     cursor: pointer;
   } 
@@ -66,16 +68,16 @@ body{
   } 
 
  .main-wrapper  {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  line-height: 1.6;
  } 
 
 .main-heading  {
-  margin-top: 150px;
-  font-size: 100px;
+  font-size: 6rem;
   color: rgb(255,255,255);
   font-weight: 400;
   text-shadow: 0 0 9px rgba(0, 0, 0, 0.7);
@@ -84,13 +86,13 @@ body{
 
 .main-heading-2  {
  display: block;
- margin-bottom: 30px;
+
 } 
 
 .menu-link a {
   background-color: #000000;
   padding: 10px 20px;
-  font-size: 40px;
+  font-size: 2.1rem;
   cursor: pointer;
   text-decoration: none;
 }  
@@ -117,7 +119,7 @@ body{
 }  
 
 .opening-hours-stamp::first-letter {
-  font-size: 30px;
+  font-size: 1.6rem;
 }   
 
 
@@ -131,7 +133,8 @@ body{
 .menu-title{
   color: #ffffff;
   text-align: center;
-  font-size: 50px;
+  font-size: 4rem;
+
   padding: 80px 0;
 }
 
@@ -140,11 +143,17 @@ body{
   border: 1px solid rgb(133, 133, 133);
   margin: 0 auto;
   padding: 15px;
+
+} 
+
+.dish h3, 
+.dish-last h3{
+  font-weight: 700;
 } 
 
 .dish, 
 .dish-last {
-  font-size: 30px;
+  font-size: 2rem;
   line-height: 2;
   border-bottom: 1px solid rgb(214, 214, 214) ;
   letter-spacing: 1px;
@@ -158,6 +167,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 } 
 
 .price  {
@@ -172,18 +182,18 @@ body{
   color: #ffffff;
   padding: 5px;
   border-radius: 4px;
-  font-weight: normal;
+
 }   
 
 .new-span  {
   background-color: rgb(162, 162, 162);
   padding: 5px;
   border-radius: 4px;
-  font-weight: normal;
+ 
 }   
 
 .toppings  {
- color: rgb(137, 137, 137);
+ color: #757575;
 } 
 
 /* -------- ABOUT STYLES START HERE ------- */
@@ -203,18 +213,18 @@ body{
 
 .about-info {
 
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 
 .about-info h3{
-  font-size: 50px ;
+  font-size: 4rem ;
   text-align: center;
-  font-size: 50px;
-  padding: 40px 0;
+  padding: 30px 0;
+
 }
 
 .about-chef-row {
-  font-size: 25px;
+  font-size: 1.5rem;
   margin: 30px 0;
   display: flex;
   justify-content: space-between;
@@ -232,12 +242,12 @@ body{
  } 
 
  .opening-hours-title{
-  font-size: 30px;
+  font-size: 2rem;
   margin: 15px auto;
  } 
 
  .opening-hours-flex {
-  font-size: 25px;
+  font-size: 1.5rem;
   display: flex;
 
 }
@@ -272,12 +282,12 @@ body{
 }  
 
 .tel {
-  color: #ffffff !important;      
+  color: #ffffff;      
 } 
 
 .contact h3{
   text-align: center;
-  font-size: 60px;
+  font-size: 4.4rem;
 }  
 
 .fyi  {
@@ -291,7 +301,7 @@ body{
 } 
 
 .reserve-tbl-h4 {
-  font-size: 29px;
+  font-size: 2rem;
   margin: 20px 0;
 } 
 
@@ -302,7 +312,7 @@ body{
   padding: 20px 10px;
   width: 100%;
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 1.8rem;
   border: none;
   color: #000000;
 } 
@@ -327,7 +337,7 @@ footer {
   width: 100%;
   text-align: center;
   height: 150px;
-  font-size: 40px;
+  font-size: 2.6rem;
   padding-top: 50px;
 } 
 
@@ -373,6 +383,9 @@ footer {
    .contact{
     width: 900px;
    } 
+   .image-bg  {
+    height: 690px;
+  } 
    
   }
 
